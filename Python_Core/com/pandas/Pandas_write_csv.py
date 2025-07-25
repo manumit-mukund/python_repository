@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 os.getcwd()
-os.chdir(r"..\..\resources")
+os.chdir(r"../../resources")
 
 print("your current working directory= ",os.getcwd())
 

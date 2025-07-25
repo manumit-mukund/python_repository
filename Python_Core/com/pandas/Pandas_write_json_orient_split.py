@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 os.getcwd()
-os.chdir(r"..\..\resources")
+os.chdir(r"../../resources")
 
 df = pd.DataFrame(data=[
     ['1', 'A', '25/4/2025'],
