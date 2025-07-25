@@ -13,4 +13,5 @@ df = pd.DataFrame(data=[
 df.to_json('file1.json', orient='split', compression='infer')
 
 df = pd.read_json('file1.json', orient='split', compression='infer')
+
 print(df)
