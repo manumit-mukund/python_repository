@@ -4,7 +4,7 @@ from pyspark.sql import SparkSession
 # Create spark session
 spark = SparkSession \
     .builder \
-    .appName("SparkByExamples.com") \
+    .appName("mypysparkapp") \
     .getOrCreate()
 
 # Create PySpark RDD from Tuple
