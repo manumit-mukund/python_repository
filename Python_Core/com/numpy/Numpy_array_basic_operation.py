@@ -10,6 +10,7 @@ print("\n2D Array:\n", arr2)
 
 # Basic operations
 arr3 = np.array([10, 20, 30, 40, 50])
+
 print("\nAddition:", arr1 + arr3)
 print("\nSubtraction:", arr3 - arr1)
 print("\nMultiplication:", arr1 * arr3)
