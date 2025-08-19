@@ -4,7 +4,7 @@ from pyspark.sql import SparkSession
 # Create spark session
 spark = SparkSession \
     .builder \
-    .appName("SparkByExamples.com") \
+    .appName("myapp") \
     .getOrCreate()
 
 # Create PySpark RDD from Parallelize
