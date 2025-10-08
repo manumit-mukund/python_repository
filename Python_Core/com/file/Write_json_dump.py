@@ -2,7 +2,7 @@ import json
 import os
 
 os.getcwd()
-os.chdir(r"..\..\resources")
+os.chdir(r"../../resources")
 
 # Data to be written
 dictionary = {
