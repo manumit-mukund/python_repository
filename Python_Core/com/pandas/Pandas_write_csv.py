@@ -13,6 +13,7 @@ data = {'Name': ['A', 'B', 'C'],
 
 df = pd.DataFrame(data)
 
-df.to_csv('output.csv',  index=False)
+df.to_csv('output_1.csv',  index=False)
+df.to_csv('output_2.csv',  index=True)
 
 print("CSV file 'output.csv' created successfully.")
